@@ -10,5 +10,14 @@
         "48": "icon48.png",
         "96": "icon96.png",
         "128": "icon128.png"
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "background":{
+        "scripts": ["content.js"],
+        "persistent": true
     }
 }
