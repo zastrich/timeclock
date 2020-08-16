@@ -1,0 +1,14 @@
+{
+    "name": "TimeClock",
+    "version": "1.0",
+    "author": "Zastrich",
+    "homepage_url": "https://code200.com.br",
+    "description": "Extensão que permite criar alertas com URL customizada, ideal para marcação online de relógio ponto",
+    "manifest_version": 2,
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "96": "icon96.png",
+        "128": "icon128.png"
+    }
+}
