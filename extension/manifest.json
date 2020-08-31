@@ -16,8 +16,12 @@
         "tabs",
         "storage"
     ],
+    "browser_action": {
+        "default_title": "TimeClock",
+        "default_popup": "options.html"
+    },
     "background":{
-        "scripts": ["content.js"],
+        "scripts": ["background.js"],
         "persistent": true
     }
 }

@@ -7,15 +7,26 @@
 </head>
 <body>
   <div class="container">
-    <div class="jumbotron mt-4">
-      <h1 class="display-4">TimeClock : Configuração dos Alertas</h1>
-      <p class="lead">Use essa página de configuração para incluir alertas de URL, as páginas abrirão automaticamente no momento do alerta.</p>
+    <div class="box box-col box-bg">
+      <h1>TimeClock : Configuração dos Alertas</h1>
+      <p>Use essa página de configuração para incluir alertas de URL, as páginas abrirão automaticamente no momento do alerta.</p>
+    </div>
+    <div class="box box-row fend">
+      <button class="btn" id="alarm_activate">Ativar/desativar todos os alertas</button>
+      <button class="btn btn-azul" id="alarm_add">
+        Adicionar alerta 
+        <svg height="16px" id="Layer_1" style="enable-background:new 0 0 16 16;" version="1.1" viewBox="0 0 16 16" width="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M15,6h-5V1c0-0.55-0.45-1-1-1H7C6.45,0,6,0.45,6,1v5H1C0.45,6,0,6.45,0,7v2c0,0.55,0.45,1,1,1h5v5c0,0.55,0.45,1,1,1h2  c0.55,0,1-0.45,1-1v-5h5c0.55,0,1-0.45,1-1V7C16,6.45,15.55,6,15,6z"/></svg>
+      </button>
+    </div>
+    <div class="box box-bg">
+      <div class="list-group" id="alarms"></div>
+    </div>
+    <div class="box">
+      <div class="resume"></div>
     </div>
   </div>
   
-  <link rel="stylesheet" href="./assets/bootstrap-4.5.2-dist/css/bootstrap.min.css">
-  <script src="./assets/jquery-3.5.1.slim.min.js"></script>
-  <script src="./assets/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
-  <script src="./assets/options.js"></script>
+  <link rel="stylesheet" href="./options.css">
+  <script src="./options.js" type="module"></script>
 </body>
 </html>
